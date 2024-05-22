@@ -1,0 +1,9 @@
+version: 1.0
+jobs:
+  hello:
+    steps:
+      - catalyst deploy
+stages:
+  - name: build
+    jobs:
+      - hello
