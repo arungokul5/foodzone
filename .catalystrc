@@ -1,0 +1,36 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "13649000000004014",
+      "name": "Bruce",
+      "domain": {
+        "id": "10063270634",
+        "name": "bruce-821241853.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "821241853",
+          "name": "Development",
+          "type": 3
+        },
+        {
+          "idx": 2,
+          "id": "10071748756",
+          "name": "Production",
+          "type": 1
+        }
+      ]
+    }
+  ]
+}
